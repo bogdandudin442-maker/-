@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>NETERRROR SHOOTER — СИМУЛЯЦИЯ АБСОЛЮТНОГО УНИЧТОЖЕНИЯ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+    <div class="game-container">
+        <canvas id="gameCanvas" width="1000" height="600"></canvas>
+        <div class="status-bar">
+            <span>❤️ HEALTH: <span id="healthValue" class="health">100</span>%</span>
+            <span>🔫 AMMO: <span id="ammoValue" class="ammo">30</span> / ∞</span>
+            <span>💀 SCORE: <span id="scoreValue" class="score">0</span></span>
+            <button id="resetBtn">⟳ RESET</button>
+        </div>
+        <div class="controls-tip">
+            🖱️ МЫШЬ — прицел | ЛКМ / ПРОБЕЛ — СТРЕЛЬБА | R — перезарядка | SHIFT + клик — супервыстрел (без ограничений)
+        </div>
+    </div>
+</div>
+<script src="game.js"></script>
+</body>
+</html>
